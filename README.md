@@ -107,6 +107,7 @@ Run Tests Using TestNG
 Right-click testng.xml
 
 Select Run
+Extent Reports can be found in test-output folder as ExtentReport.html and screenshots in screenshot folder.
 
 ## Reporting
 TestNG default reports generated under test-output/

@@ -72,6 +72,7 @@ src
 │           └── CheckoutTest.java
 ├── testng.xml
 └── pom.xml
+```
 
 
  Test Scenarios Covered

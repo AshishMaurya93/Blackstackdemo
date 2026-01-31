@@ -75,30 +75,32 @@ src
 ```
 
 
- Test Scenarios Covered
+## Test Scenarios Covered
 
-Login Tests
+   ## Login Tests
 
-TC_001: Login with valid credentials
+  TC_001: Login with valid credentials
 
-TC_002: Login with invalid credentials
+  TC_002: Login with invalid credentials
 
-TC_003: Login with empty username and password
+  TC_003: Login with empty username and password
 
-Cart Tests
+   ## Cart Tests
 
-TC_004: Add single product to cart
+  TC_004: Add single product to cart
 
-TC_005: Add multiple products and verify cart count
+  TC_005: Add multiple products and verify cart count
 
-TC_006: Remove product from cart
+  TC_006: Remove product from cart
 
-Checkout Tests
-TC_007: Place order with valid details
+   ## Checkout Tests
 
-TC_008: Attempt checkout without adding products (negative test)
+  TC_007: Place order with valid details
 
-Test Execution
+  TC_008: Attempt checkout without adding products (negative test)
+
+## Test Execution
+
 Run Tests Using Maven
 mvn clean test
 Run Tests Using TestNG
@@ -106,12 +108,12 @@ Right-click testng.xml
 
 Select Run
 
-Reporting
+## Reporting
 TestNG default reports generated under test-output/
 
 Framework supports integration with Extent Reports
 
-Version Control
+## Version Control
 
 Code managed using Git
 
@@ -119,8 +121,8 @@ Repository hosted on GitHub
 
 Can be easily integrated with CI/CD tools like Jenkins
 
-Conclusion
+## Conclusion
 This project showcases a complete Selenium automation testing framework suitable for college submission, practical exams, and real-world automation projects.
 
-Author
+## Author
 Ashish Maurya
